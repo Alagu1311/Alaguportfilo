@@ -1,38 +1,169 @@
-.App {
+.size{
+  width: 200px;
+  height: 200px;
+  margin-left: 20px;
+}
+.flex{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+ 
+.cenal{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.inhei{
+width: 1000px;
+margin-left: 100px;
+  border-radius: 50px;
+  border: 2px solid rgb(0, 132, 255);
+  padding: 30px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flex1{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+    flex-direction: row;
+    gap: 60px;
+    margin-top: 100px;
 
-.App-link {
-  color: #61dafb;
 }
+.inwid{
+  width: 1040px;
+  margin-left: 100px;
+  border-radius: 50px;
+  border: 2px solid rgb(0, 132, 255);
+}
+.size1{
+  height: 200px;
+  width: 200px;
+  margin-left: 50px;
+}
+.size2{
+  height: 200px;
+    width: 200;
+    margin-left: 50px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.size3{
+  height: 200px;
+    width: 200px;
+    margin-left: 50px;
+}
+.marginlef{
+  margin-left: 40px;
+}
+.carbor{
+  padding: 20px;
+  width: 1000px;
+  margin-left: 100px;
+
+}
+.emsiz{
+  height: 40px;
+  width: 40px;
+}
+.peral{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.btnflx{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 1rem;
+  margin-top: 20px;
+  margin-right: 20px;
+  background-color:whitesmoke;
+  padding: 20px;
+ 
+  
+  
+}
+.marginlef1{
+  margin-left: 120px;
+}
+.tablmar{
+  margin-top: 50px;
+}
+.peral{
+  margin: 20px;
+}
+.widdec{
+  width: 1000px;
+  margin-left: 100px;
+}
+.Aboal{
+  width: 1000px;
+  margin-left: 100px;
+  margin-bottom: 10px;
+  
+}
+.abomar{
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.awssize{
+  height: 200px;
+  width: 200px;
+  margin-left: 10px;
+}
+.calimage{
+  height: 300px;
+  width: 300px;
+  margin-left: 250px;
+}
+.texalcen{
+  text-align: center;
+  
+
+}
+.marlef{
+  margin-left: 30px;
+  text-decoration: none;
+}
+.propap{
+  height: fit-content;
+  width: fit-content;
+  padding: 50px;
+  margin: 0 auto;
+  border: 2px solid rgb(0, 132, 255);
+  border-radius: 10px;
+}
+.tablmar{
+  width: fit-content;
+  height: fit-content;
+}
+.widdec{
+  border: 2px solid rgb(0, 132, 255);
+  border-radius: 20px;
+  margin-top: 30px;
+}
+.carbor{
+  border: 2px solid rgb(0, 132, 255);
+  border-radius: 20px;
+}
+.Aboal{
+  border: 2px solid rgb(0, 132, 255);
+  border-radius: 20px;
+}
+.porlef{
+ position: absolute;
+ left: 20px;
+}
+.texmar{
+  margin-top: 20px;
+  padding: 100px;
+  margin-left: 30px;
+}
+.texpad{
+  margin-bottom: 30px;
+  margin-left: 60px;
+}
+.textpad1{
+  margin-left: 60px;
+}
+.btnmar{
+  margin-top: 30px;
+  margin-left: 140px;
 }
